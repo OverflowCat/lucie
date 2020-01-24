@@ -1,11 +1,27 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+  font-family: helvetica, arial, sans-serif; background:url("https://cdn.glitch.com/a073f0ad-26d1-4b40-a316-0bac4d63ec6b%2F1_01.jpg?v=1579868268207") no-repeat top center;
+   background-size:cover;
+   background-attachment:fixed;
+   background-color:#CCCCCC;
 }
 
 h1 {
   font-style: italic;
-  color: #373fff;
+  color: #378fff;
+}
+
+.main{
+    color: #fff;
+    text-align: center; /*让div内部文字居中*/
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
